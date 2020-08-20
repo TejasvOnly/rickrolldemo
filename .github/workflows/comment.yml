@@ -1,4 +1,4 @@
- on:
+on:
   issues:
     types: [opened]
 
@@ -6,6 +6,7 @@ jobs:
   comment:
     runs-on: ubuntu-latest
     steps:
+      - name: a_normal_comment
         uses: TejasvOnly/random-rickroll
         with:
           percentage: 100
