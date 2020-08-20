@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: a_normal_comment
-        uses: TejasvOnly/random-rickroll
+        uses: TejasvOnly/random-rickroll@v1.0
         with:
           percentage: 100
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
