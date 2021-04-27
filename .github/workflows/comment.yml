@@ -9,5 +9,5 @@ jobs:
       - name: a_normal_comment
         uses: TejasvOnly/random-rickroll@v1.0
         with:
-          percentage: 100
+          percentage: 50
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
